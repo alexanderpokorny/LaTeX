@@ -1,0 +1,23 @@
+# LaTeX temporary files
+*.aux
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.pdf
+*.synctex.gz
+*.toc
+*.lof
+*.lot
+*.bbl
+*.blg
+*.fls
+*.dvi
+*.ps
+*.eps
+
+# Editor
+.vscode/
+*.swp
+*.swo
+*~

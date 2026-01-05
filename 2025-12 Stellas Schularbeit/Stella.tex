@@ -1,0 +1,264 @@
+\documentclass[a4paper,11pt]{scrartcl}
+
+% Pakete für Sprache und Kodierung
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[ngerman]{babel}
+
+% Pakete für Mathematik und Symbole
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{eurosym} % Für das Euro-Zeichen
+
+% Paket für bessere Lesbarkeit/Ränder
+\usepackage{geometry}
+\geometry{a4paper, left=2.5cm, right=2.5cm, top=2.5cm, bottom=2.5cm}
+
+% Einstellungen für Absätze
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{1em}
+
+\title{Analyse der MA-Schularbeit von Stella}
+\date{\today}
+\author{}
+
+\begin{document}
+
+\maketitle
+
+Liebe Stella!
+
+Zuerst mal sorry, das ist ein wirklich besch....eiden knappes Ergebnis. Aber dein mathematisches Verständnis ist keinesfalls daneben! Du hast leider einige Punkte liegen lassen durch Unsicherheit, Schlamperei bzw. Ungenauigkeiten. Aber da ist definitiv mehr drin! Bei einigen Aufgaben hast du den richtigen Ansatz, aber dann nicht zu Ende gerechnet.
+
+Einige Beurteilungen sind hart, insbesondere dort wo zwei Teilfragen zu beantworten sind, aber nur ganze Punkte (kein 1/2) vergeben werden. Genau dort wären teilweise jedenfalls einige 1/2 Punkte drin gewesen, weil du oft eine Teilfrage richtig hattest. Aber das System ist sicherlich für alle gleich, und es steht auch bei den möglichen Punktezahlen explizit dabei, ob 1/2 Punkte möglich sind oder nicht.
+
+\section*{Analyse der Fehlerquellen und Punkteabzüge}
+
+Hier sind die Aufgaben, bei denen Punkte verloren gingen:
+
+\begin{itemize}
+
+    \item \textbf{Aufgabe 2 (Term aufstellen): 0 Punkte.} \\
+    Du hast den Ansatz für den Durchschnittspreis im Ansatz richtig notiert, aber die Gewichtungen der Preise mit der Anzahl der Erwachsenen bzw. Kinder vergessen. So hätte es aussehen sollen $\frac{x \cdot p + p \cdot 0{,}7 \cdot y}{x+y}$. Vermutlich heißt „Df“ Denkfehler.
+
+    \item \textbf{Aufgabe 3 (Quadratische Gleichung): 0 Punkte.} \\
+    Es wurden $k_1$ und $k_2$ gesucht. Die Lösung beinhaltet $\pm$, d.h. einen fixen Term und die Diskriminante, die einmal dazugerechnet, einmal abgezogen wird. Wenn die $0$ ist, dann hat die Gleichung genau eine Lösung. Also wenn der Wurzelaudruck in
+
+    \begin{equation}
+        -\frac{p}{2} \pm \sqrt{\left(\frac{p}{2}\right)^2 -q}
+    \end{equation}
+
+    Null ist. Dann gilt:
+
+    \begin{equation}
+        \left(\frac{p}{2}\right)^2 -q = 0 \quad \Rightarrow \quad q = \frac{p^2}{4}
+    \end{equation}
+
+    In deinem Beispiel lautet die Gleichung $x^2 +kx +4k =0$, also ist $p=k$ und $q=4k$. Oben eingesetzt ergibt sich:
+
+    \begin{equation}
+        4k = \frac{k^2}{4} \quad \Rightarrow 16k = k^2
+    \end{equation}
+    
+    Du kannst diese wiederum quadratische Gleichung sehr einfach lösen, indem du $k$ ausklammerst:
+
+    \begin{equation}
+        k(k-16) =0 \quad \Rightarrow \quad k_1 =0 \quad \text{oder} \quad k_2 =16
+    \end{equation}
+
+    Du hast leider sowohl die Formel für die Diskriminante falsch, jedenfalls lese ich das so, als wäre nur das $p$ zum Quadrat, aber es ist auch der Nenner ... oder $p^2/4$. Und du hast die anschließende Gleichung nicht weiter gelöst.
+
+    \item \textbf{Aufgabe 5 (Lineare Funktion): 0 Punkte.} \\
+    Um das richtig ankreuzen zu können, ist es am einfachsten zwei Gleichungen aufzusetzen und jeweils $A$ und $B$ einzusetzen:
+    \begin{align}
+        A\colon y &= kx + d \quad \Rightarrow \quad a = ka + d\\
+        B\colon y &= kx + d \quad \Rightarrow \quad 2a = 3ak + d
+    \end{align}
+
+    Am einfachsten ist es, die 2. Gleichung minus die 1. Gleichung zu rechnen, um $k$ zu eliminieren:
+
+    \begin{equation}
+        2a - a = 3ak + d - (ka + d) \quad \Rightarrow \quad a = 2ak \quad \Rightarrow \quad k = \frac{1}{2}
+    \end{equation}
+
+    Und dann in die 1. Gleichung einsetzen:
+
+    \begin{equation}
+        a = \frac{1}{2}a + d \quad \Rightarrow \quad d = \frac{a}{2}
+    \end{equation}
+
+    Beim 2. Schritt hast du irgendwas mit $-x+2y=3$ gemacht, was ich nicht ganz verstehe... Blöderweise gibt es für das Beispiel keinen $1/2$ Punkt, denn dein $k_1$ war ja richtig, sondern nur 0 oder 1 Punkt.
+
+    \item \textbf{Aufgabe 6 (Potenzfunktion): 0 Punkte.} \\
+    Bei dem Beispiel setzt du am besten erst mal direkt 1 für $x$ ein, um $a$ zu bestimmen, weil $1^z =1$ für alle $z$ ist. Also:
+
+    \begin{equation}
+        f(1) = 8\colon \quad a \cdot 1^z = 8 \quad \Rightarrow \quad a = 8
+    \end{equation}
+
+    Das hast du eigentlich richtig, aber nicht fertig das Ergebnis $a=8$ und dort hingeschrieben, wo es hingehört. Mit etwas Wohlwollen hätte sie dir den halben Punkt geben können, aber streng verbessert, steht bei der gesuchten Lösung am Strich eben nichts.
+    In die zweite Bedingung kannst du dann $a=8$ einsetzen:
+
+    \begin{equation}
+        f(2x) = \frac{1}{4}f(x)\colon \quad  a(2x)^z = \frac{1}{4}ax^z \quad \Rightarrow \quad 2^z\cdot ax^z = \frac{1}{4} \cdot ax^z
+    \end{equation}
+
+    Nach Kürzen durch $ax^z$ (vorausgesetzt $x \neq 0$ und $a \neq 0$, beide laut Angabe erfüllt) erhältst du:
+
+    \begin{equation}
+        2^z = \frac{1}{4} \quad \Rightarrow \quad 2^z = 2^{-2} \quad \Rightarrow \quad z = -2
+    \end{equation}
+
+    Da sie dort, wo die Lösungen hingehören, keine von beiden gefunden hat (weder $a$ noch $z$), hat sie dir 0 Punkte gegeben.
+
+    \item \textbf{Aufgabe 8 (Monotonieverhalten): 0 Punkte.} \\
+    Bei der Zeichung hast du die Polynomfunktion teilweise richtig. Die Monotonie ändert sich dort, wo es vorher bergab ging, jetzt aber bergauf geht (und umgekehrt). Das sind die Stellen, wo die Ableitung 0 ist, also die Extremstellen, d.h. Maxima und Minima Du hast ein Minimum bei $x=-3$ eingezeichnet, aber das Maximum ist bei dir bei Null, bei $x=1$ hast du die Funktion durch eine Nullstelle gehen lassen. Aber da gehts rechts ja weiter bergab, also ist dort keine Änderung der Monotonie. Das Maximum hätte statt bei $x=0$ bei $x=1$ (hat sie eh unterstrichen) liegen müssen, also der rechte Teil der Funktion mit dem Maximum lediglich um +1 nach rechts gestreckt. Blöderweise gibt es für das Beispiel wieder keinen $1/2$ Punkt, denn deine 1. Stelle war ja richtig.
+
+    \item \textbf{Aufgabe 10 (Interpretation Differenzenquotient): 0 Punkte.} \\
+    Du hast geschrieben: „Die prozentuelle Änderungsrate beträgt 3,23 bzw 323\%...“. Eine Änderungsrate ist aber eine Änderung pro Zeiteinheit, also z.B. „pro Jahr“. Denk an die Physik, wo die Geschwindigkeit die Änderungsrate des Weges in der Zeit ist (z.B. Meter pro Sekunde).
+    
+    Der Ausdruck $\frac{B(2017)-B(1960)}{B(1960)}$ beschreibt die \textbf{relative Änderung} (Gesamtänderung bezogen auf den Grundwert), nicht die „Änderungsrate“. Mein Vorschlag für die Antwort „im gegebenen Sachzusammenhang“ würde lauten, dass die \textbf{Bevölkerung von 1960 bis 2017 um das 3,23-fache, also relativ um 323\% (bezogen auf 1960) zugenommen hat}. \\
+    Aber \textbf{nicht}, dass die Bevölkerung „mit einer Änderungsrate von 323\%“ zugenommen hat. Das hat sie sehr genau genommen und daher 0 Punkte.
+    
+    \item \textbf{Aufgabe 11 (Interpretation Differenzenquotient): 0 Punkte.} \\
+    Du hast handschriftlich im 1. Kasten dazugeschrieben „Steigung“. Das ist korrekt. Aber dann ist natürlich an der Stelle $x=1$ die Steigung negativ, denn da geht's ja bergab, und du hattest es schon dort stehen ... warum korrigiert?? Schade ...
+    Dafür hast du zuviel angekreuzt, dass die mittlere Änderungsrate in keinem Intervall gleich Null ist. Die mittlere Änderungsrate ist ja die Steigung der Sekante zwischen zwei Punkten, also der Differenzenquotient. Überall dort wo eine Sekante (nicht die Tangente, das wäre der Differenzenquotient) waagrecht verläuft, ist die mittlere Änderungsrate 0, und daher wirst du bei dieser Funktion nicht keine sondern sogar unendlich viele Intervalle finden, wo die mittlere Änderungsrate 0 ist.
+
+    \item \textbf{Aufgabe 15 (Wassermenge): 0 Punkte.} \\
+    Der Graph zeigt die Änderungsrate, nicht die Menge. Also die Zufluss- oder Abflussgeschwindigkeit. Zwischen Null und 2 drehst du den Hahn langsam zu, bei $t=2$ rinnt kein Wasser mehr in das Gefäß. Dann machst du den Abfluss auf und lässt Wasser abfließen (negative Änderungsrate). Dann drehst du den Ablaufhahn langsam wieder zu, wodurch die Kurve ein Minimum bekommt und dann bei $t=6$ bleibt die Wassermenge wieder (für einen Augenblick) konstant. Im Intervall $6-8$ öffnest du den Zufluss wieder, sodass die Änderungsrate wieder positiv wird (die 2. Option, leider nicht angekreuzt). \\
+    Warum ist die 1. Option richtig? An beiden Stellen bleibt die Änderungsrate für einen Moment Null. Dazwischen war sie aber negativ, also muss Wasser ausgeronnen sein. \\
+    Warum ist die letzte Option falsch? Der Zeitpunkt $t=4$ allein betrachtet, lässt keine Rückschlüsse auf die Wassermenge zu. Das Minimum der Änderungsrate bedeutet nur, dass das Wasser am schnellsten abfließt, aber es muss irgendwann vorher jedenfalls mehr Wasser im Gefäß gewesen sein.
+    
+    \item \textbf{Aufgabe 17 (Skatepark Fläche): 0 Punkte.} \\
+    Die Zerlegung in Rechtecke ($2 \cdot 1 + 2 \cdot 1 = 4$) wurde als korrekt abgehakt. Das darauffolgende Integral für die krummlinigen Begrenzungen hast du leider falsch berechnet, leider schon beginnend mit dem Intervall, das $-3$ bis $3$ hätte sein sollen. Zwischen 3 und 4 bzw. $-3$ und $-4$ sind ja die Rechtecke, die du schon berücksichtigt hast. \\
+
+    Das Integral eines Polynoms ist allgemein so zu berechnen:
+    \begin{equation}
+        \int a \cdot x^n \, dx = \frac{a}{n+1} x^{n+1} + C, \quad n \in \mathbb{Z} \setminus \{-1\}, a \in \mathbb{R}
+    \end{equation}
+
+    Das Integral hättest du so aufstellen müssen:
+    \begin{align}
+        \int_{-3}^{3} \frac{2}{81}x^4 \, dx &= \frac{2}{405}x^5 = \left. \frac{2}{405}x^5 \right|_{-3}^{3} = \frac{2}{405}(3^5 - (-3)^5) = \\ &= \frac{2}{405}(243 + 243) = \frac{2}{405} \cdot 486 = \frac{972}{405} = \frac{72}{30} = \frac{12}{5} = 2{,}4
+    \end{align}
+    
+    Also in Summe mit den beiden quadratischen Flächen komme ich auf $2{,}4m^2 + 4 m^2 = 6{,}4 m^2$.
+
+    \item \textbf{Aufgabe 18b.1 (Interpretation Integral): 0 Punkte.} \\
+    Abgesehen von der brennenden Frage, wer Wasserflöhe in einem Teich zählt ...
+    Du hast  den Term
+    
+    \begin{equation}
+        \frac{1}{t_2-t_1} \int_{t_1}^{t_2} v(t) \, dt
+    \end{equation}
+    
+    als „durchschnittliche Änderungsrate“ absolut richtig interpretiert. Aber es ist nicht die kumulative Zunahme der Wasserflöhe, sondern die \textbf{mittlere pro Zeiteinheit}, weil du durch das Intervall $t_2 - t_1$ teilst. Die Einheit von $t$ sind Tage, daher ist das die mittlere Änderungsrate \textbf{pro Tag}, deshalb hat sie das ergänzt. Steht sogar in der Frage „unter Angabe der zugehörigen Einheit“. Im Prinzip ist das eine Anwendung des sog. Mittelwertsatzes der Integralrechnung, auch Cauchyscher Mittelwertsatz genannt. Ich nehme an, deshalb hat sie dir wegen der fehlenden Formulierung „pro Tag“ 0 Punkte gegeben, weil das für diesen Zusammenhang essenziell ist.
+
+    \item \textbf{Aufgabe 18b.2 (Berechnung maximale Wasserflöhe): 0 Punkte.} \\
+    Da müsste ich jetzt wissen, was ihr genau gelernt habt. Grundsätzlich ist die Anzahl der Wasserflöhe die Stammfunktion / Populationsfunktion (also das Integral) von $v(t)$, also:
+
+    \begin{equation}
+        P(t) = -0,28t^4 + 15t^3 - 245t^2 + 1450t + 2500
+    \end{equation}
+
+    Wobei sich die Integrationskonstante durch die Anfangsbedingung $P(0) = 2500$ ergibt. \\
+    Um die maximale Anzahl der Wasserflöhe zu berechnen, musst du die kritischen Punkte der Funktion $P(t)$ bestimmen, also die Stellen, wo die Ableitung $P'(t) = v(t)$ Null ist. Dann kannst du diese Stellen in $P(t)$ einsetzen, um die Anzahl der Wasserflöhe an diesen Stellen zu berechnen. Der höchste dieser Werte ist dann die maximale Anzahl der Wasserflöhe. \\
+    Die Funktion $v(t)$ ist ein Polynom 3. Grades, das bis zu drei Nullstellen haben kann. Diese kannst du entweder durch Faktorisieren (wenn möglich) oder durch numerische Methoden finden. Welches Verfahren ihr gelernt habt, weiß ich nicht. Goldstandard ist die numerische Berechnung, z.B. mit dem Newton-Verfahren oder anderen Algorithmen. Aber auch Ansätze mit Wertetabellen und Interpolationen können für ökologische Fragestellungen ausreichend genau sein.
+    
+    Ich bin ein Computer-Mensch und habe es numerisch hinreichend genau berechnet:
+
+    \begin{align}
+        t_1 &= 4,882202737329 \\
+        t_2 &= 10,845064580456 \\
+        t_3 &= 24,451304110787
+    \end{align}
+
+    Wir haben also 3 lokale Maxima und können diese in $P(t)$ einsetzen:
+
+    \begin{align}
+        P(t_1) &=5325,891215899348 \\
+        P(t_2) &=4669,418906209339 \\
+        P(t_3) &=10671,962506808937
+    \end{align}
+
+    Da wir am Tag Null beginnen ist 1 das Ende des ersten Tages, somit 24 das Ende des 24. Tages. Also ist 24,4513... ca. Mitte des 25. Tages. Wasserflöhe sind zwar klein, können aber trotzdem nicht in Bruchteilen leben, also können wir entweder aufrunden (und ungefähr angeben), oder wir runden auf die ganze Zahl ab, was bei einer Population aus meiner Sicht mehr Sinn macht. Somit ergibt sich ein Populationsmaximum im Beobachtungszeitraum von maximal 10671 (ganzen lebenden) Wasserflöhen im Laufe des 25. Tages. 
+    
+    Dass es dafür nur 1 Punkt geben soll, finde ich übrigens gewagt. Im Beispiel 2 hast du Punkte verloren, weil du den Gewichtungsfaktor nicht berücksichtigt hast. Da war nur das Aufstellen des Terms 1 Punkt wert, hier rechnet ein Geübte:r jedenfalls 15 min und dafür gibt's auch nur 1 Punkt? Wo ist da die Relation / Gewichtung?
+
+    \item \textbf{Aufgabe 19 (Weizenbierglas): 0 Punkte.} \\
+    Prost! Ein anderes Feinschmeckerbeispiel ... 
+    
+    1. Bei der ersten Teilaufgabe hast du den Rechenweg komplett weggelassen, eventuell aus der Skizze geschätzt (daher „fehlt Rechenweg“ und „Berechne“ unterstrichen).
+
+    Laut Skizze ist der Radius des Glases etwa bei $6 cm$ vom Boden und mathematisch ein Minimum der Funktion. Du hättest also die Ableitung der Funktion 
+    
+    \begin{align}
+        g(x) = -0,00108 x^3 + 0,046 x^2 - 0,4367 x + 3
+    \end{align}
+    
+    bilden und gleich Null setzen müssen, um die Höhe des Glases (hier $x$) zu bestimmen, bei der der Radius $g(x)$ minimal ist:
+
+    \begin{align}
+        g'(x) = -0,00324x^2 + 0,092x - 0,4367
+    \end{align}
+
+    Wobei die Nullstellen sind:
+
+    \begin{align}
+        x_{0,1} &=6.0252648368 \\
+        x_{0,2} &=22.3697968916
+    \end{align}
+
+    Da wir den Funktionsgraphen ja kennen, erspare ich mir die zweite Ableitung, um zu zeigen, dass es sich bei $x_{0,1}$ um ein Minimum handelt. Je nachdem, wie das von ihr verlangt wird, könnte es sein, dass du das machen müsstest.
+    
+    Somit ist der minimale Radius in einer Höhe von ca. $6,03 cm$ über dem Boden des Glases. Jetzt setzen wir diesen Wert in die Funktion ein, um den minimalen Radius zu bestimmen:
+
+    \begin{align}
+        r_{min} = g(6,0252648368) = 1.802503081268 \, cm
+    \end{align} 
+
+    Die Lösung für den minimalen Innendurchmesser ($2 \cdot r_{min}$) ist also ca. $3,60 cm$ (wie sie es auch angemerkt hat).
+
+    2. Um das Volumen zu berechnen, rotieren wir die Fläche unter dem Graphen (Kontur des Glases) von $2cm$ bis $25cm$ um die $x$-Achse:
+
+    \begin{align}
+        V &= \pi \int_{2}^{25} [g(x)]^2 \, dx \\
+        &= \pi \int_{2}^{25} \left(-0,00108 x^3 + 0,046 x^2 - 0,4367 x + 3\right)^2 \, dx = \\
+        &= \pi \int_{2}^{25} -2,6202x-0.0466564x^3-0,00009936x^5+ \\
+        &+0,0000011664x^6+0,003059272x^4+0,46670689x^2+9 \, dx
+    \end{align}
+
+    Das ergibt nach Berechnung des Integrals:
+
+    \begin{align}
+        V &= \pi [ -1.3101x^2-0.0116641x^4-0.00001656x^6+ \\
+        &+ 0.000000166629x^7+0.0006118544x^5+0.155568963333x^3+9x ]_{2}^{25} \\
+        &= \pi (229.85806965625 - 13.836066935976) \\
+        &= \pi \cdot 216.022002720274 \\
+        &\approx 678.96 \, cm^3 = 0.67996 \, L
+    \end{align}
+
+    Dein Integral-Ansatz ist da, aber die Berechnung bricht ab, die obere und untere Grenze sind nicht Funktionswerte bei 2 und 25 sondern 2 und 25 selbst, weil das ja die $x$-Werte sind und zur Integrationsvariablen $x$, siehe $dx$ gehören.
+    
+    Einheitenfehler wurden ebenfalls angemerkt („in Liter“ verlangt, cm³ berechnet). Mein Ergebnis, 0,679 Liter (aufgrund der kleinsten Zahl der signifikaten Stellen in der Funktion würde ich auf $0,68 L$ runden), kommt der Größe eines Weizenbierglases nahe, wenn man es bis zum Rand füllt. Dann hätte es aber in der Praxis keinen Platz mehr für Schaum (sowas trinken dann nur Mathematiker :-), daher ist das reine vorgesehene Flüssigeitsvolumen $0.5L$ also ein Krügerl oder 1/2 Maß in Bayern. Also die \textbf{Lösung} $\textbf{0.68L}$ korrespondiert sogar mit der Realität, wie eine kurze Recherche gezeigt hat ...
+    
+    Auch das ist wieder sehr lange und mühsam zu rechnen, ebenfalls nur 1 Punkt? Wo ist da die Relation / Gewichtung? Wäre ich jetzt ein Schüler, der auf Minimalaufwand aus ist, dann würde ich mir überlegen, ob ich mir den Aufwand überhaupt antun will, wenn es nur 1 Punkt bringt ... Dafür lieber die Zeit in die anderen Aufgaben investieren, wo in Summe mehr Punkte zu holen sind, und ich dann mehr Zeit habe, darüber intensiv nachzudenken.
+\end{itemize}
+
+\section*{War die Punktevergabe besonders streng oder grenzwertig?}
+
+Die Korrektur ist teilweise streng, besonders bei verbalen Interpretationen und der Vergabe von Teilpunkten. Aber durch die explizite Klarstellung in den Angaben und auch das System, das sicherlich für alle gleich angewendet wurde (manche Beispiele lassen laut Angabe keine 1/2 Punkte zu), ist es aus meiner Sicht nicht anfechtbar.
+
+Das ist meine größte Kritik: Die Punkte sind extrem ungleich viel wert. Und warum es bei einigen Aufgaben mit zwei Teilfragen nur einen Punkt gibt, ist mir schleierhaft.
+
+Bei der Interpretation hat sie in einigen Fällen sehr pedantisch korrigiert, aber fairerweise muss man sagen, dass es auch Fälle gibt wo sie eher großzügig war, z.B. bei Aufgabe 14, wo du vor dem Integral irgendetwas ($10h = P$) hingeschrieben hast, was dort keinen Sinn ergibt, das hat sie einfach durchgestrichen. Außerdem ist deine Einheit in diesem Beispiel streng genommen falsch: Nicht kW sondern kWh (Kilowattstunden) ist die Einheit der elektrischen Arbeit / Energie. Trotzdem hast du da 1 Punkt. Hier war sie also nicht so streng.
+
+Bei 18a.2 hast du ein richtiges Ergebnis, aber keinen Rechenweg, insbesondere wie du auf 12 Tage kommst. Das ist zwar einfach durch Logarithmieren zu lösen, aber es steht nicht da. Trotzdem hast du da 1 Punkt bekommen, obwohl der Rechenweg fehlt. Streng genommen hätte sie dir das abziehen können.
+
+Leider: Ich würde nicht versuchen, da noch was zu machen. Es ist zwar ärgerlich, aber du hast objektiv Punkte durch Ungenauigkeiten und fehlende Zwischenschritte liegen lassen. Um Punkte zu feilschen ist schwierig, weil sie dann auch die eher kulanten Punkte wieder abziehen könnte. Und der 1/2 Punkt macht zwar einen psychologischen Unterschied in der Note, aber nicht in der inhaltlichen Bewertung und sicherlich auch nicht in der Semesternote. Du musst weiter dran bleiben, dann klappt das beim nächsten Mal besser!
+
+Ich hoffe, das hilft dir weiter! Kopf hoch, die nächste Schularbeit wird besser! Bei Fragen melde dich jederzeit gerne.
+
+LG Alexander
+
+\end{document}
