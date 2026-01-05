@@ -1,0 +1,685 @@
+\documentclass[a4paper,11pt]{scrartcl}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[ngerman]{babel}
+\usepackage{amsmath, amssymb}
+\usepackage{geometry, wasysym}
+\usepackage{enumitem}
+\usepackage{fancyhdr}
+\usepackage{multicol}
+\usepackage{tikz}
+\usepackage{eurosym}
+\usepackage{booktabs}
+\usepackage{tabularx}
+
+% Seiteneinstellungen
+\geometry{left=2.5cm, right=2.5cm, top=2.5cm, bottom=2.5cm}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{6pt}
+
+% Kopf- und Fußzeile
+\pagestyle{fancy}
+\fancyhf{}
+\lhead{\textbf{Mathematik Übungspool}}
+\rhead{3. Klasse Gymnasium - 2. Schularbeit}
+\cfoot{\thepage}
+
+\begin{document}
+
+\section*{Übungspool für die 2. Schularbeit}
+
+\tableofcontents
+\vspace{1cm}
+\hrule
+\vspace{1cm}
+
+\section{Themenbereich: Potenzen}
+
+\subsection{Begriffe und Grundlagen}
+
+\textbf{Aufgabe 1 (Basiswissen):}
+Fülle die Lücken in der Tabelle aus.
+\begin{center}
+\renewcommand{\arraystretch}{1.5}
+\begin{tabular}{|c|c|c|c|}
+\hline
+\textbf{Potenz} & \textbf{Basis} & \textbf{Exponent (Hochzahl)} & \textbf{Als Multiplikation} \\ \hline
+$3^4$ & & & \\ \hline
+& $x$ & $5$ & \\ \hline
+& & & $2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2$ \\ \hline
+$(-5)^3$ & & & \\ \hline
+\end{tabular}
+\end{center}
+
+\textbf{Aufgabe 2 (Vorzeichen-Check):}
+Entscheide, ob das Ergebnis positiv ($+$) oder negativ ($-$) ist. Du musst den Wert nicht ausrechnen.
+\begin{itemize}
+    \item[a)] $(-3)^4$ \quad Ergebnis: \underline{\hspace{2cm}}
+    \item[b)] $-3^4$ \quad Ergebnis: \underline{\hspace{2cm}}
+    \item[c)] $(-2)^7$ \quad Ergebnis: \underline{\hspace{2cm}}
+    \item[d)] $(-1)^{2024}$ \quad Ergebnis: \underline{\hspace{2cm}}
+\end{itemize}
+
+\textbf{Aufgabe 3 (Wahr oder Falsch):}
+Kreuze an.
+\begin{center}
+\begin{tabular}{|l|c|c|}
+\hline
+\textbf{Aussage} & \textbf{Richtig} & \textbf{Falsch} \\ \hline
+$a^3$ bedeutet $a + a + a$. & $\square$ & $\square$ \\ \hline
+$2x^2 + 3x^2 = 5x^2$. & $\square$ & $\square$ \\ \hline
+$(3a)^2$ ist das Gleiche wie $3a^2$. & $\square$ & $\square$ \\ \hline
+$x^0 = 1$ (für $x \neq 0$). & $\square$ & $\square$ \\ \hline
+\end{tabular}
+\end{center}
+
+\subsection{Rechnen mit Potenzen (Addieren \& Subtrahieren)}
+
+\textit{Tipp: Nur Potenzen mit gleicher Basis UND gleichem Exponenten können addiert oder subtrahiert werden!}
+
+\textbf{Aufgabe 4:} Vereinfache die Terme so weit wie möglich.
+\begin{itemize}
+    \item[a)] $5a^2 + 3a^2 - 2a^2 =$
+    \item[b)] $4x^3 + 2x^2 - x^3 + 5x^2 =$
+    \item[c)] $7m^4 - 3m + 2m^4 - m^4 =$
+    \item[d)] $12a^2b + 3ab^2 - 5a^2b + ab^2 =$
+\end{itemize}
+
+\subsection{Rechnen mit Potenzen (Multiplizieren \& Dividieren)}
+
+\textbf{Aufgabe 5:} Schreibe als eine einzige Potenz.
+\begin{itemize}
+    \item[a)] $x^5 \cdot x^3 =$
+    \item[b)] $y \cdot y^4 \cdot y^2 =$
+    \item[c)] $\frac{a^8}{a^3} =$
+    \item[d)] $10^{12} : 10^4 =$
+\end{itemize}
+
+\textbf{Aufgabe 6 (Gemischte Ausdrücke):}
+Vereinfache und schreibe das Ergebnis kompakt an.
+\begin{itemize}
+    \item[a)] $3x^2 \cdot 4x^5 =$
+    \item[b)] $5a^3 \cdot (-2a^4) =$
+    \item[c)] $\frac{15x^6}{3x^2} =$
+    \item[d)] $\frac{24a^5b^3}{6a^2b} =$
+    \item[e)] $\frac{(-2x)^3 \cdot x^4}{2x^2} =$
+\end{itemize}
+
+\subsection{Potenzieren von Potenzen}
+\textit{Regel: $(a^m)^n = a^{m \cdot n}$}
+
+\textbf{Aufgabe 7:} Löse die Klammern auf.
+\begin{itemize}
+    \item[a)] $(x^3)^4 =$
+    \item[b)] $(2a^2)^3 =$
+    \item[c)] $(\frac{3x}{y^2})^2 =$
+\end{itemize}
+
+\subsection{Zehnerpotenzen und Gleitkommadarstellung}
+
+\textbf{Aufgabe 8 (Schreibweise):}
+Schreibe die Zahlen entweder als Dezimalzahl oder in wissenschaftlicher Schreibweise (Gleitkommadarstellung $m \cdot 10^k$ mit $1 \leq m < 10$).
+
+\begin{center}
+\renewcommand{\arraystretch}{1.5}
+\begin{tabular}{|l|l|}
+\hline
+\textbf{Standard-Schreibweise} & \textbf{Gleitkommadarstellung} \\ \hline
+$5\,000\,000$ & \\ \hline
+& $3,2 \cdot 10^4$ \\ \hline
+$123\,000\,000$ & \\ \hline
+& $6,02 \cdot 10^9$ \\ \hline
+\end{tabular}
+\end{center}
+
+\textbf{Aufgabe 9 (Textaufgaben):}
+\begin{itemize}
+    \item[a)] Die Lichtgeschwindigkeit beträgt ca. $300\,000$ km/s. Die Entfernung der Erde zur Sonne beträgt ca. $150\,000\,000$ km.
+    \begin{enumerate}
+        \item Schreibe beide Zahlen in Gleitkommadarstellung.
+        \item Berechne, wie viele Sekunden das Licht von der Sonne zur Erde braucht (Formel: $t = \frac{s}{v}$).
+    \end{enumerate}
+    \item[b)] Ein menschliches Haar wächst etwa $1,5 \cdot 10^{-4}$ Meter pro Tag (Annahme). Wie viele Meter wächst es in 30 Tagen? Gib das Ergebnis in einer passenden Einheit oder Schreibweise an.
+\end{itemize}
+
+\section{Themenbereich: Proportionen und Ähnlichkeit}
+
+\subsection{Verhältnisse und Proportionen}
+
+\textbf{Aufgabe 10 (Verhältnisse vereinfachen):}
+Gib das Verhältnis so einfach wie möglich an (gekürzt).
+\begin{itemize}
+    \item[a)] $10 : 20 =$
+    \item[b)] $1,5 \text{ kg} : 500 \text{ g} =$
+    \item[c)] $45 \text{ min} : 1 \text{ h} =$
+    \item[d)] In einer Klasse sind 12 Burschen und 16 Mädchen. Wie verhält sich die Anzahl der Burschen zu der der Mädchen?
+\end{itemize}
+
+\subsection{Direkte und Indirekte Proportionen}
+
+\textbf{Aufgabe 11 (Erkennen):}
+Kreuze an, welche Art von Zuordnung vorliegt.
+\begin{center}
+\begin{tabular}{|l|c|c|c|}
+\hline
+\textbf{Situation} & \textbf{Direkt} & \textbf{Indirekt} & \textbf{Weder noch} \\ \hline
+Menge an Äpfeln und der Preis dafür. & $\square$ & $\square$ & $\square$ \\ \hline
+Anzahl der Arbeiter und die Dauer der Arbeit. & $\square$ & $\square$ & $\square$ \\ \hline
+Alter eines Kindes und seine Körpergröße. & $\square$ & $\square$ & $\square$ \\ \hline
+Geschwindigkeit eines Autos und benötigte Zeit für eine Strecke. & $\square$ & $\square$ & $\square$ \\ \hline
+\end{tabular}
+\end{center}
+
+\textbf{Aufgabe 12 (Rechnen - Direkt):}
+Für ein Rezept benötigt man für 4 Personen 240 g Mehl.
+\begin{itemize}
+    \item[a)] Wie viel Gramm Mehl benötigt man für 7 Personen?
+    \item[b)] Wie viele Personen können versorgt werden, wenn man 600 g Mehl hat?
+\end{itemize}
+
+\textbf{Aufgabe 13 (Rechnen - Indirekt):}
+Ein Vorrat an Futter reicht für 12 Kühe genau 15 Tage.
+\begin{itemize}
+    \item[a)] Wie lange reicht der Vorrat, wenn der Bauer 3 Kühe verkauft?
+    \item[b)] Begründe kurz, um welche Art der Proportion es sich handelt und warum.
+\end{itemize}
+
+\textbf{Aufgabe 14 (Maßstab):}
+Eine Landkarte hat den Maßstab $1 : 50\,000$.
+\begin{itemize}
+    \item[a)] Zwei Orte sind auf der Karte 8 cm voneinander entfernt. Wie weit sind sie in der Wirklichkeit entfernt? (Gib das Ergebnis in km an).
+    \item[b)] Zwei Städte sind in Wirklichkeit 12 km entfernt. Wie viele cm entspricht das auf der Karte?
+\end{itemize}
+
+\subsection{Ähnlichkeit und Strahlensätze}
+
+\textbf{Aufgabe 15 (Ähnlichkeitsfaktor k):}
+Ein Rechteck hat die Seitenlängen $a = 4$ cm und $b = 3$ cm. Ein dazu ähnliches Rechteck hat eine Länge von $a' = 12$ cm.
+\begin{itemize}
+    \item[a)] Bestimme den Ähnlichkeitsfaktor $k$.
+    \item[b)] Berechne die Breite $b'$ des großen Rechtecks.
+    \item[c)] Berechne den Flächeninhalt beider Rechtecke. Wie verhalten sich die Flächen zueinander? (Vergleiche $A$ und $A'$).
+\end{itemize}
+
+\textbf{Aufgabe 16 (Verständnisfrage Flächen):}
+Wenn man bei einem Quadrat die Seitenlänge verdoppelt ($k=2$), was passiert dann mit dem Flächeninhalt?
+\begin{itemize}
+    \item[a)] Er verdoppelt sich.
+    \item[b)] Er vervierfacht sich.
+    \item[c)] Er bleibt gleich.
+    \item[d)] Begründe deine Antwort mit einer kurzen Rechnung oder Skizze.
+\end{itemize}
+
+\textbf{Aufgabe 17 (Strahlensatz-Figur):}
+In der folgenden Skizze sind die Geraden $g$ und $h$ parallel ($g \parallel h$).
+\begin{center}
+\begin{tikzpicture}
+    % Zentrum Z
+    \coordinate (Z) at (0,0);
+    \node at (Z) [left] {$Z$};
+    
+    % Strahlen
+    \draw (Z) -- (6,2) node[right]{Strahl 1};
+    \draw (Z) -- (6,-1) node[right]{Strahl 2};
+    
+    % Parallelen
+    \draw[thick] (2, 0.66) -- (2, -0.33) node[midway, left] {$x$};
+    \node at (2, 0.9) {$A$};
+    \node at (2, -0.6) {$B$};
+    
+    \draw[thick] (5, 1.66) -- (5, -0.83) node[midway, right] {$10$};
+    \node at (5, 1.9) {$A'$};
+    \node at (5, -1.1) {$B'$};
+    
+    % Bemaßung Z bis A und Z bis A'
+    \node at (1, 0.6) {$3$}; % Strecke ZA
+    \node at (3.5, 1.5) {$4.5$}; % Strecke AA' (Achtung Falle: oft ist ZA' gesucht)
+\end{tikzpicture}
+\end{center}
+Gegeben ist: $\overline{ZA} = 3$ cm, $\overline{AA'} = 4,5$ cm, $\overline{A'B'} = 10$ cm.
+\begin{itemize}
+    \item[a)] Berechne die gesamte Länge $\overline{ZA'}$.
+    \item[b)] Berechne die Länge der Strecke $x$ ($\overline{AB}$) mithilfe des Strahlensatzes.
+    \textit{Tipp: Es gilt $\frac{\overline{ZA}}{\overline{ZA'}} = \frac{\overline{AB}}{\overline{A'B'}}$}
+\end{itemize}
+
+
+\textbf{Aufgabe 18 (Ähnlichkeit im Raster erkennen):}
+Betrachte die Figuren im Raster. Die Maschenweite beträgt jeweils 1 Kästchen (1 LE).
+\begin{center}
+
+
+\begin{tikzpicture}[scale=0.8]
+    % Raster
+    \draw[step=1cm,gray!40,very thin] (0,0) grid (16,6);
+    
+    % Figur A (Rechteck 2x3)
+    \draw[thick, fill=blue!10] (1,1) rectangle (3,4);
+    \node at (2, 2.5) {\textbf{A}};
+    \node[below] at (2,1) {\footnotesize $b=2$};
+    \node[left] at (1,2.5) {\footnotesize $h=3$};
+    
+    % Figur B (Rechteck 3x4)
+    \draw[thick, fill=red!10] (4,1) rectangle (7,5);
+    \node at (5.5, 3) {\textbf{B}};
+    \node[below] at (5.5,1) {\footnotesize $b=3$};
+    \node[left] at (4,3) {\footnotesize $h=4$};
+    
+    % Figur C (Rechteck 4x6)
+    \draw[thick, fill=green!10] (9,0) rectangle (13,6);
+    \node at (11, 3) {\textbf{C}};
+    \node[below] at (11,0) {\footnotesize $b=4$};
+    \node[left] at (9,3) {\footnotesize $h=6$};
+\end{tikzpicture}
+\end{center}
+\begin{itemize}
+    \item[a)] Überprüfe rechnerisch die Verhältnisse der Seitenlängen:
+    \begin{itemize}
+        \item Verhältnis Breite: $4 : 2 = \dots$
+        \item Verhältnis Höhe: $6 : 3 = \dots$
+    \end{itemize}
+    \item[b)] Sind die Rechtecke A und C ähnlich zueinander? Begründe deine Antwort.
+    \item[c)] Bestimme den Ähnlichkeitsfaktor $k$ für die Vergrößerung von A nach C.
+    \item[d)] Warum ist Figur B nicht ähnlich zu Figur A? Zeige dies anhand der Verhältnisse.
+\end{itemize}
+
+\textbf{Aufgabe 19 (Flächeninhalt beim Trapez):}
+Ein Trapez hat einen Flächeninhalt von $A = 24 \text{ cm}^2$. Es wird mit dem Faktor $k = 3$ vergrößert.
+\begin{center}
+\begin{tikzpicture}[scale=0.6]
+    % Kleines Trapez
+    \draw[thick] (0,0) -- (3,0) -- (2,2) -- (1,2) -- cycle;
+    \node at (1.5,1) {$A_{alt}$};
+    
+    % Pfeil
+    \draw[->, thick] (3.5, 1) -- (5.5, 1) node[midway, above] {$k=3$};
+    
+    % Großes Trapez (Symbolisch)
+    \draw[thick] (6,0) -- (12,0) -- (10,4) -- (8,4) -- cycle; % Dies ist nur k=2 gezeichnet aus Platzgründen, aber Text sagt k=3
+    \node at (9,2) {$A_{neu} = ?$};
+\end{tikzpicture}
+\end{center}
+\begin{itemize}
+    \item[a)] Kreuze an, welche Aussage für den neuen Flächeninhalt $A_{neu}$ stimmt:
+    \begin{itemize}
+        \item[$\square$] Der Flächeninhalt verdreifacht sich ($3 \cdot 24$).
+        \item[$\square$] Der Flächeninhalt wächst auf das Neunfache ($3^2 \cdot 24$).
+        \item[$\square$] Der Flächeninhalt wächst auf das Sechsfache ($2 \cdot 3 \cdot 24$).
+    \end{itemize}
+    \item[b)] Berechne den tatsächlichen Wert von $A_{neu}$.
+\end{itemize}
+
+\textbf{Aufgabe 20 (Strahlensatz am Dreieck):}
+In der folgenden Figur sind die Strecken $BC$ und $DE$ parallel ($BC \parallel DE$). Es handelt sich um ineinanderliegende ähnliche Dreiecke (vgl. "V-Figur").
+
+\begin{center}
+\begin{tikzpicture}[scale=0.9]
+    % Punkt A (Spitze)
+    \coordinate (A) at (0,4);
+    \node[above] at (A) {$A$};
+    
+    % Basis DE
+    \coordinate (D) at (-3,0);
+    \coordinate (E) at (3,0);
+    \draw[thick] (A) -- (D) node[below] {$D$};
+    \draw[thick] (A) -- (E) node[below] {$E$};
+    \draw[thick] (D) -- (E) node[midway, below] {$x$};
+    
+    % Parallele BC
+    \coordinate (B) at (-1.5, 2);
+    \coordinate (C) at (1.5, 2);
+    \draw[thick] (B) -- (C) node[midway, above] {$6$};
+    \node[left] at (B) {$B$};
+    \node[right] at (C) {$C$};
+    
+    % Bemaßung Seite links
+    \draw[<->] (-3.5, 0) -- (-3.5, 2) node[midway, left] {$4$}; % BD
+    \draw[<->] (-2.0, 2) -- (-0.5, 4) node[midway, left] {$4$}; % AB
+    
+    % Hinweis gestrichelt
+    \draw[dotted] (-3,0) -- (-3.5,0);
+    \draw[dotted] (-1.5,2) -- (-3.5,2);
+    \draw[dotted] (0,4) -- (-0.5,4); % Hilfslinie
+\end{tikzpicture}
+\end{center}
+
+Gegeben sind die Längen:
+\begin{itemize}
+    \item Strecke $\overline{AB} = 4$ cm
+    \item Strecke $\overline{BD} = 4$ cm
+    \item Strecke $\overline{BC} = 6$ cm
+\end{itemize}
+
+\textit{Vorsicht: Für den Strahlensatz benötigst du die Länge der gesamten Seite $\overline{AD}$!}
+
+\begin{itemize}
+    \item[a)] Berechne die Länge der gesamten Seite $\overline{AD} = \overline{AB} + \overline{BD}$.
+    \item[b)] Bestimme den Ähnlichkeitsfaktor $k$, der das kleine Dreieck $ABC$ auf das große Dreieck $ADE$ abbildet ($k = \frac{\overline{AD}}{\overline{AB}}$).
+    \item[c)] Berechne die Länge der Seite $x$ ($\overline{DE}$).
+\end{itemize}
+
+\textbf{Aufgabe 21 (Anwendung Maßstab):}
+Ein Modellauto wurde im Maßstab $1:50$ gebaut. Das Modell ist 8 cm lang.
+\begin{center}
+\begin{tikzpicture}
+    % Kleines Auto (Box)
+    \draw[fill=gray!30] (0,0) rectangle (2,0.8);
+    \draw[fill=black] (0.3,0) circle (0.2);
+    \draw[fill=black] (1.7,0) circle (0.2);
+    \node at (1, 1.2) {Modell (8 cm)};
+    
+    % Großes Auto (Box - angedeutet)
+    \draw[dashed] (4,-0.5) rectangle (10, 2.5);
+    \node at (7, 1) {Original ($x$ cm)};
+    \draw[->] (2.5, 0.4) -- (3.5, 0.4) node[midway, above] {$\times 50$};
+\end{tikzpicture}
+\end{center}
+\begin{itemize}
+    \item[a)] Berechne die Länge des echten Autos in cm und wandle das Ergebnis in Meter um.
+    \item[b)] Das echte Auto hat eine Fensterfläche von ca. $2 \text{ m}^2$. Wie groß ist die Fensterfläche im Modell?
+\end{itemize}
+
+
+
+
+\section{Knifflige Aufgaben für Profis}
+
+\textbf{Aufgabe 22 (Potenzen-Puzzle):}
+Finde den Fehler in der Rechnung und korrigiere ihn.
+\begin{quote}
+Rechnung von Max:
+$\frac{4x^5 \cdot x^2}{2x^3} = \frac{4x^{10}}{2x^3} = 2x^7$
+\end{quote}
+Fehlerbeschreibung: \hrulefill \\ \\ \\
+Korrekte Rechnung: \hrulefill \\ \\ \\
+
+\textbf{Aufgabe 23 (Mischaufgabe):}
+Ein Würfel hat die Kantenlänge $a$. Sein Volumen ist $V = a^3$.
+\begin{itemize}
+    \item[a)] Gib einen Term für das Volumen an, wenn die Kantenlänge verdreifacht wird ($3a$).
+    \item[b)] Um wie viel mal größer ist das neue Volumen im Vergleich zum alten?
+\end{itemize}
+
+\vspace{1cm}
+\centerline{\textit{Viel Spaß bei der Vorbereitung \smiley{}!}}
+
+\newpage
+
+\section*{Anhang: Rechenregeln für Potenzen}
+
+Hier hast du alle wichtigen Regeln auf einen Blick zusammengefasst. Du kannst diese Seite nutzen, um beim Üben schnell nachzuschlagen.
+
+\subsection*{1. Begriffe und Sonderfälle}
+Eine Potenz besteht aus einer \textbf{Basis} (Grundzahl) und einem \textbf{Exponenten} (Hochzahl).
+\[ a^n = \underbrace{a \cdot a \cdot \ldots \cdot a}_{n-\text{mal}} \]
+\textbf{Wichtige Sonderfälle:}
+\begin{itemize}
+    \item $a^1 = a$ (Eine Zahl ohne Hochzahl hat immer die Hochzahl 1).
+    \item $a^0 = 1$ (Jede Zahl hoch 0 ergibt 1, sofern $a \neq 0$).
+\end{itemize}
+
+\subsection*{2. Vorzeichen-Regeln}
+Achte genau darauf, ob das Minuszeichen \textbf{in} der Klammer steht oder nicht!
+\begin{itemize}
+    \item \textbf{Gerader Exponent} (2, 4, 6 \dots): Das Ergebnis ist positiv. \\
+    Beispiel: $(-3)^4 = +81$
+    \item \textbf{Ungerader Exponent} (3, 5, 7 \dots): Das Vorzeichen bleibt erhalten. \\
+    Beispiel: $(-2)^3 = -8$
+    \item \textbf{Ohne Klammer:} Das Minus gehört nicht zur Basis, sondern steht davor. \\
+    Beispiel: $-3^2 = -9$ (denn gerechnet wird $-(3 \cdot 3)$).
+\end{itemize}
+
+\subsection*{3. Addieren und Subtrahieren (Strichrechnung)}
+Hier musst du streng sein: Du darfst nur Potenzen zusammenfassen, die exakt \textbf{dieselbe Basis} UND \textbf{denselben Exponenten} haben.
+\begin{itemize}
+    \item \textbf{Richtig:} $2x^3 + 5x^3 = 7x^3$ (Die Hochzahl ändert sich nicht!).
+    \item \textbf{Falsch:} $x^2 + x^3$ (Kann nicht vereinfacht werden).
+    \item \textbf{Falsch:} $a^2 + b^2$ (Kann nicht vereinfacht werden).
+\end{itemize}
+
+\subsection*{4. Multiplizieren und Dividieren (Punktrechnung)}
+Wenn die \textbf{Basis gleich} ist, gelten folgende Gesetze:
+
+\begin{itemize}
+    \item \textbf{Multiplizieren:} Basis beibehalten, Hochzahlen \textbf{addieren}.
+    \[ a^m \cdot a^n = a^{m+n} \]
+    Beispiel: $x^2 \cdot x^3 = x^{2+3} = x^5$
+    
+    \item \textbf{Dividieren:} Basis beibehalten, Hochzahlen \textbf{subtrahieren}.
+    \[ \frac{a^m}{a^n} = a^{m-n} \]
+    Beispiel: $\frac{y^7}{y^3} = y^{7-3} = y^4$
+\end{itemize}
+
+\subsection*{5. Potenzieren von Potenzen}
+Wenn eine Potenz noch einmal potenziert wird (Hochzahl der Hochzahl), werden die Exponenten \textbf{multipliziert}.
+\[ (a^m)^n = a^{m \cdot n} \]
+Beispiel: $(x^3)^4 = x^{3 \cdot 4} = x^{12}$
+
+\subsection*{6. Klammerregeln (Produkte und Quotienten)}
+Steht ein Produkt oder ein Bruch in der Klammer, wird der Exponent auf \textbf{jeden Teil} angewendet.
+\begin{itemize}
+    \item $(a \cdot b)^n = a^n \cdot b^n$ \quad Beispiel: $(2x)^3 = 2^3 \cdot x^3 = 8x^3$
+    \item $\left(\frac{a}{b}\right)^n = \frac{a^n}{b^n}$ \quad Beispiel: $\left(\frac{x}{3}\right)^2 = \frac{x^2}{9}$
+\end{itemize}
+
+\subsection*{7. Negative Hochzahlen}
+Ein negativer Exponent bedeutet, dass man den \textbf{Kehrwert} bildet. Die Potenz wandert in den Nenner (oder vom Nenner in den Zähler), und das Vorzeichen der Hochzahl wird positiv.
+\[ a^{-n} = \frac{1}{a^n} \]
+Beispiel: $2^{-3} = \frac{1}{2^3} = \frac{1}{8}$
+
+\subsection*{8. Theorie: Gleitkommadarstellung}
+
+In der Mathematik und den Naturwissenschaften werden sehr große oder sehr kleine Zahlen in der \textbf{Gleitkommadarstellung} (auch wissenschaftliche Schreibweise genannt) notiert, um sie übersichtlich zu halten. Oft spricht man auch von der Darstellung in »Zehnerpotenzen«.
+
+\subsubsection*{Aufbau einer Gleitkommazahl}
+Eine Zahl $x$ wird dabei als Produkt dargestellt:
+\[ x = m \cdot b^e \]
+Die Bestandteile sind:
+\begin{itemize}
+    \item \textbf{Mantisse} ($m$): Auch \textit{Vorzahl} genannt. In der standardisierten Darstellung muss die Mantisse eine Zahl sein, für die gilt: $1 \le m < 10$. Das heißt, es steht genau eine Ziffer (ungleich Null) vor dem Komma.
+    \item \textbf{Basis} ($b$): Da wir im Dezimalsystem rechnen, ist die Basis meistens $10$.
+    \item \textbf{Exponent} ($e$): Die Hochzahl der Basis. Sie bestimmt die Größenordnung (Anzahl der Stellenverschiebungen).
+\end{itemize}
+
+\subsubsection*{Beispiele aus der Wissenschaft}
+Hier sind bekannte Naturkonstanten in korrekter wissenschaftlicher Notation:
+
+\begin{itemize}
+    \item \textbf{Loschmidt-Konstante}: $N_L$ ist eine nach Josef Loschmidt benannte physikalische Konstante, die die Anzahl der Moleküle pro Volumeneinheit eines idealen Gases unter Normalbedingungen angibt. Ihr derzeit allgemein empfohlener Wert beträgt
+    \[ N_L \approx 2,687 \cdot 10^{25} \, \text{m}^{-3} \quad \textrm{oder} \quad N_L \approx 2,687 \cdot 10^{19} \, \text{cm}^{-3}
+    \]
+    \textit{Analyse:} Mantisse = $2,687$, Basis = $10$, Exponent = $25$.
+    
+    \item \textbf{Masse der Erde}:
+    \[ m_{\text{Erde}} \approx 5,97 \cdot 10^{24} \, \text{kg} \]
+\end{itemize}
+
+\subsubsection*{Computerdarstellung (E-Notation)}
+Da Taschenrechner und Computerbildschirme oft keine hochgestellten Zahlen darstellen können, wird die sogenannte \textbf{E-Notation} verwendet. Das ,,E'' steht hierbei für ,,Exponent zur Basis 10''.
+
+Die Struktur ist: \texttt{Mantisse E Exponent}
+
+\begin{center}
+\renewcommand{\arraystretch}{1.5}
+% Die letzte Spalte X wird hier linksbündig definiert
+\begin{tabularx}{\textwidth}{|l|l|>{\raggedright\arraybackslash}X|}
+\hline
+\textbf{Math. Schreibweise} & \textbf{Computer / TR} & \textbf{Erklärung} \\ \hline
+$1,21323 \cdot 10^{23}$ & \texttt{1.21323E+23} & Das Plus zeigt einen positiven Exponenten an (Komma nach rechts). \\ \hline
+$2,687 \cdot 10^{25}$ & \texttt{2.687E25} & Loschmidt-Zahl in der typischen PC-Schreibweise. \\ \hline
+$1,6 \cdot 10^{-19}$ & \texttt{1.6E-19} & Das Minus bedeutet einen negativen Exponenten (sehr kleine Zahl, Komma nach links). \\ \hline
+\end{tabularx}
+\end{center}
+
+\newpage
+
+\section*{Anhang: Lösungen}
+
+\subsection*{1. Potenzen}
+
+\textbf{Aufgabe 1 (Tabelle):}
+\begin{itemize}
+    \item $3^4$: Basis 3, Exponent 4, $3 \cdot 3 \cdot 3 \cdot 3 (= 81)$
+    \item $x^5$: Basis $x$, Exponent 5, $x \cdot x \cdot x \cdot x \cdot x$
+    \item $2^6$: Basis 2, Exponent 6, $2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2$
+    \item $(-5)^3$: Basis $-5$, Exponent 3, $(-5) \cdot (-5) \cdot (-5) (= -125)$
+\end{itemize}
+
+\textbf{Aufgabe 2 (Vorzeichen-Check):}
+\begin{itemize}
+    \item[a)] $(-3)^4 \rightarrow \boldsymbol{+}$ (Gerader Exponent, Minus in Klammer)
+    \item[b)] $-3^4 \rightarrow \boldsymbol{-}$ (Minus steht vor der Potenz!)
+    \item[c)] $(-2)^7 \rightarrow \boldsymbol{-}$ (Ungerader Exponent)
+    \item[d)] $(-1)^{2024} \rightarrow \boldsymbol{+}$ (Gerader Exponent)
+\end{itemize}
+
+\textbf{Aufgabe 3 (Wahr oder Falsch):}
+\begin{itemize}
+    \item $a^3 = a+a+a$: \textbf{Falsch} (das wäre $3a$). Richtig ist $a \cdot a \cdot a$.
+    \item $2x^2 + 3x^2 = 5x^2$: \textbf{Richtig}.
+    \item $(3a)^2 = 3a^2$: \textbf{Falsch}. Richtig wäre $9a^2$.
+    \item $x^0 = 1$: \textbf{Richtig}.
+\end{itemize}
+
+\textbf{Aufgabe 4 (Addieren \& Subtrahieren):}
+\begin{itemize}
+    \item[a)] $6a^2$
+    \item[b)] $3x^3 + 7x^2$ (Unterschiedliche Exponenten können nicht addiert werden!)
+    \item[c)] $m^4 - 3m$ ($7m^4+2m^4-m^4 = 8m^4$. Korrektur: $7+2-1 = 8m^4 - 3m$)
+    \item[d)] $7a^2b + 4ab^2$
+\end{itemize}
+
+\textbf{Aufgabe 5 (Multiplizieren \& Dividieren):}
+\begin{itemize}
+    \item[a)] $x^{5+3} = x^8$
+    \item[b)] $y^{1+4+2} = y^7$
+    \item[c)] $a^{8-3} = a^5$
+    \item[d)] $10^{12-4} = 10^8$
+\end{itemize}
+
+\textbf{Aufgabe 6 (Gemischte Ausdrücke):}
+\begin{itemize}
+    \item[a)] $3 \cdot 4 \cdot x^{2+5} = 12x^7$
+    \item[b)] $5 \cdot (-2) \cdot a^{3+4} = -10a^7$
+    \item[c)] $15:3 \cdot x^{6-2} = 5x^4$
+    \item[d)] $24:6 \cdot a^{5-2} \cdot b^{3-1} = 4a^3b^2$
+    \item[e)] Zähler: $(-8x^3) \cdot x^4 = -8x^7$. Division: $-8x^7 : 2x^2 = -4x^5$
+\end{itemize}
+
+\textbf{Aufgabe 7 (Potenzieren):}
+\begin{itemize}
+    \item[a)] $x^{3 \cdot 4} = x^{12}$
+    \item[b)] $2^3 \cdot a^{2 \cdot 3} = 8a^6$
+    \item[c)] $\frac{3^2 x^2}{y^{2 \cdot 2}} = \frac{9x^2}{y^4}$
+\end{itemize}
+
+\textbf{Aufgabe 8 (Gleitkomma):}
+\begin{itemize}
+    \item $5\,000\,000 = 5 \cdot 10^6$
+    \item $3,2 \cdot 10^4 = 32\,000$
+    \item $123\,000\,000 = 1,23 \cdot 10^8$
+    \item $6,02 \cdot 10^9 = 6\,020\,000\,000$
+\end{itemize}
+
+\textbf{Aufgabe 9 (Textaufgaben):}
+\begin{itemize}
+    \item[a)] $v = 3 \cdot 10^5$ km/s, $s = 1,5 \cdot 10^8$ km.
+    Zeit $t = \frac{s}{v} = \frac{1,5 \cdot 10^8}{3 \cdot 10^5} = 0,5 \cdot 10^3 = 500$ Sekunden ($8$ min $20$ s).
+    \item[b)] $1,5 \cdot 10^{-4} \cdot 30 = 45 \cdot 10^{-4} = 4,5 \cdot 10^{-3}$ Meter (oder $4,5$ mm).
+\end{itemize}
+
+\subsection*{2. Proportionen und Ähnlichkeit}
+
+\textbf{Aufgabe 10 (Verhältnisse):}
+\begin{itemize}
+    \item[a)] $1 : 2$
+    \item[b)] $1500$ g : $500$ g $= 3 : 1$
+    \item[c)] $45$ min : $60$ min $= 3 : 4$
+    \item[d)] $12 : 16 = 3 : 4$
+\end{itemize}
+
+\textbf{Aufgabe 11 (Typen):}
+\begin{itemize}
+    \item Äpfel/Preis: \textbf{Direkt}
+    \item Arbeiter/Dauer: \textbf{Indirekt}
+    \item Alter/Größe: \textbf{Weder noch}
+    \item Geschwindigkeit/Zeit (bei fester Strecke): \textbf{Indirekt}
+\end{itemize}
+
+\textbf{Aufgabe 12 (Direkt - Mehl):}
+\begin{itemize}
+    \item[a)] 1 Person braucht $60$ g. 7 Personen brauchen $420$ g.
+    \item[b)] $600 : 60 = 10$ Personen.
+\end{itemize}
+
+\textbf{Aufgabe 13 (Indirekt - Kühe):}
+\begin{itemize}
+    \item[a)] Vorrat gesamt: $12 \cdot 15 = 180$ Tagesportionen.
+    Neue Anzahl Kühe: $9$. Tage: $180 : 9 = 20$ Tage.
+    \item[b)] Je weniger Kühe, desto länger reicht das Futter.
+\end{itemize}
+
+\textbf{Aufgabe 14 (Maßstab $1:50\,000$):}
+\begin{itemize}
+    \item[a)] $8 \text{ cm} \cdot 50\,000 = 400\,000 \text{ cm} = 4 \text{ km}$.
+    \item[b)] $12 \text{ km} = 1\,200\,000 \text{ cm}$. Karte: $1\,200\,000 : 50\,000 = 24 \text{ cm}$.
+\end{itemize}
+
+\textbf{Aufgabe 15 (Ähnlichkeit Rechteck):}
+\begin{itemize}
+    \item[a)] $k = \frac{12}{4} = 3$.
+    \item[b)] $b' = 3 \cdot 3 = 9$ cm.
+    \item[c)] $A = 12$ cm$^2$, $A' = 108$ cm$^2$. $A'$ ist $9$-mal so groß wie $A$ ($k^2 = 3^2 = 9$).
+\end{itemize}
+
+\textbf{Aufgabe 16:}
+Antwort \textbf{b)} Er vervierfacht sich ($k=2 \rightarrow$ Fläche wächst auf das $k^2 = 4$ Fache).
+
+\textbf{Aufgabe 17 (Strahlensatz):}
+\begin{itemize}
+    \item[a)] $ZA' = ZA + AA' = 3 + 4,5 = 7,5$ cm.
+    \item[b)] Bestimme $k = \frac{ZA'}{ZA} = \frac{7,5}{3} = 2,5$.
+    Damit ist $x = \frac{A'B'}{k} = \frac{10}{2,5} = 4$ cm.
+\end{itemize}
+
+\subsection*{3. Zusatzaufgaben \& Profis}
+
+\textbf{Aufgabe 18 (Raster):}
+\begin{itemize}
+    \item[a)] Breite $4:2=2$. Höhe $6:3=2$.
+    \item[b)] Ja, da beide Verhältnisse gleich sind ($k=2$).
+    \item[c)] $k=2$.
+    \item[d)] B hat Breite 3, Höhe 4. Verhältnis zu A: Breite $3:2=1,5$; Höhe $4:3=1,33\dots$ $\rightarrow$ Nicht ähnlich.
+\end{itemize}
+
+\textbf{Aufgabe 19 (Trapez Fläche):}
+\begin{itemize}
+    \item[a)] Richtig ist: Der Flächeninhalt wächst auf das \textbf{Neunfache} ($k^2 = 3^2 = 9$).
+    \item[b)] $A_{neu} = 24 \cdot 9 = 216$ cm$^2$.
+\end{itemize}
+
+\textbf{Aufgabe 20 (Dreieck):}
+\begin{itemize}
+    \item[a)] $AD = 4 + 4 = 8$ cm.
+    \item[b)] $k = \frac{8}{4} = 2$.
+    \item[c)] $x = 6 \cdot 2 = 12$ cm.
+\end{itemize}
+
+\textbf{Aufgabe 21 (Modellauto):}
+\begin{itemize}
+    \item[a)] Länge $= 8 \text{ cm} \cdot 50 = 400 \text{ cm} = 4$ m.
+    \item[b)] Flächenfaktor ist $k^2 = 50^2 = 2500$.
+    Fläche im Modell = $2 \text{ m}^2 : 2500 = 0,0008 \text{ m}^2 = 8 \text{ cm}^2$.
+\end{itemize}
+
+\textbf{Aufgabe 22 (Fehlerteufel):}
+Fehler: Max hat beim Multiplizieren $x^5 \cdot x^2$ die Hochzahlen malgenommen ($x^{10}$) statt addiert ($x^7$).
+Richtig: $\frac{4x^7}{2x^3} = 2x^{7-3} = 2x^4$.
+
+\textbf{Aufgabe 23 (Würfel):}
+\begin{itemize}
+    \item[a)] $V_{neu} = (3a)^3 = 3^3 \cdot a^3 = 27a^3$.
+    \item[b)] Das Volumen ist 27-mal so groß.
+\end{itemize}
+
+\end{document}
